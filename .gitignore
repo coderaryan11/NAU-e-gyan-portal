@@ -1,0 +1,37 @@
+# Ignore the SQLite database file
+db.sqlite3
+
+# Ignore database migrations (optional)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.sqlite3
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore environment variables and settings
+.env
+*.env
+config.json
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore static and media files (if using local storage)
+staticfiles/
+media/
+
+# Ignore VS Code and PyCharm settings (if using those editors)
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
